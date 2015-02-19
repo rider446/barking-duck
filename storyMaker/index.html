@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Story Maker</title>
+    <script src="story.js"></script>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>Welcome to Story Maker</h1>
+        <h3 class="heading">Click the button below to find out what your story will say.</h3>
+    </header>
+    <article id="a1">
+        <form>
+            <label class="span3">First Name</label>
+            <input type="text" name="firstname" class="span3" id="name">
+            <label class="span3">Adjective</label>
+            <input type="text" name="adj" class="span3" id="adj">
+            <label class="span3">Verb</label>
+            <input type="text" name="verb" class="span3" id="verb">
+            <label class="span3">Noun</label>
+            <input type="text" name="noun" class="span3" id="noun">
+            <input type="submit" value="Go" class="span3" id="btn1" onclick="create(); return false;">
+            <input type="submit" value="Clear" class="span3" id="btn2" onclick="clear(); return true;">
+            <div class="clearfix"></div>
+        </form>
+        <article id="a2">
+
+        </article>
+    </article>
+
+    <footer>
+        Copywrite by the copyrighter!
+    </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: oldFont;
+    src: url(fonts/Pompeii Caps.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/book.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding: 10px 1% 10px 1%;
+    min-height: 100%;
+}
+
+header {
+    text-align: center;
+    min-heigh: 10%;
+    width: 50%;
+    font-family: oldFont;
+   
+}
+
+article {
+    /*min-height: 90%;*/
+    text-align: center;
+}
+
+.heading {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.span3 {
+    float: left;
+    clear: left;
+}
+
+#a1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#a2 {
+    font-family: oldFont;
+    width: 45%;
+    float: right;
+}
+
+
+
+#noun {
+    margin-bottom: 5px;
+}
+
+#btn1 {
+    float: left;
+}
+
+#btn2 {
+    clear: both;
+}
+footer {
+    clear: both;
+    min-height: 5%;
+}
